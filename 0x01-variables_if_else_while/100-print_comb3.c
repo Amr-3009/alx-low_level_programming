@@ -13,8 +13,6 @@ int main(void)
 	{
 	for (j = 1; j <= 9; j++)
 	{
-	if (i != j)
-	{
 	putchar(i + 48);
 	putchar(j + 48);
 	if (i == 8 && j == 9)
@@ -25,7 +23,6 @@ int main(void)
 	{
 	putchar(',');
 	putchar(' ');
-	}
 	}
 	}
 	}
