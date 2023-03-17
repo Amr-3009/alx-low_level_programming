@@ -16,7 +16,7 @@ int main(void)
 	if (i != j)
 	{
 	putchar(i + 48);
-	putchar(j  48);
+	putchar(j + 48);
 	if (i == 8 && j == 9)
 	{
 	break;
