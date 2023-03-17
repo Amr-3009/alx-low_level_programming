@@ -7,20 +7,19 @@
 
 int main(void)
 {
-	char i, j;
+	int i, j;
 
-	for (i = '0'; i <= '8'; i++)
+	for (i = 0; i <= 8; i++)
 	{
-	for (j = '1'; j <= '9'; j++)
+	for (j = 1; j <= 9; j++)
 	{
 	if (i != j)
 	{
-	putchar(i);
-	putchar(j);
-	if (i == '8' && j == '9')
+	putchar(i + 48);
+	putchar(j  48);
+	if (i == 8 && j == 9)
 	{
 	break;
-	}
 	else
 	{
 	putchar(',');
