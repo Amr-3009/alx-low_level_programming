@@ -3,13 +3,13 @@
 #include <time.h>
 
 /**
- * main - gfddfgdf
- * Reutrn: ghfhfgfgh
+ * main - print
+ * Reutrn: always
  */
 
 int main(void)
 {
-	int n, ld ;
+	int n, ld; 
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
