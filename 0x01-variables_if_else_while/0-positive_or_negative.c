@@ -1,9 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlibh>
 #include <time.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - dsdfdsf
+ * Return: fdfgdfgfdg
+ */
+
 int main(void)
 {
 	int n;
