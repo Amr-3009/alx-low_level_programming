@@ -15,5 +15,5 @@ int _abs(int n)
 	_putchar(abs_val + '0');
 	return (abs_val);
 	}
-	return (c);
+	return (n);
 }
