@@ -10,7 +10,7 @@ int main(void)
 {
 	int a, b = 0;
 
-	while (i < 1024)
+	while (a < 1024)
 	{
 	if ((a % 3 == 0) || (a % 5 == 0))
 	{
@@ -18,7 +18,7 @@ int main(void)
 	}
 	a++;
 	}
-	printf("%d\n", z);
+	printf("%d\n", b);
 	return (0);
 
 }
