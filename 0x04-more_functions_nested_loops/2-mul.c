@@ -2,7 +2,8 @@
 
 /**
  * mul - multiplies
- * @a, @b: input
+ * @a: input 1
+ * @b: input
  * Return: always
  */
 
