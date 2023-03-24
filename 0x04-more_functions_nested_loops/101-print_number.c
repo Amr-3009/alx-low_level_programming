@@ -2,6 +2,7 @@
 
 /**
  * print_number - print number
+ * @n: input
  * Return: always
  */
 
