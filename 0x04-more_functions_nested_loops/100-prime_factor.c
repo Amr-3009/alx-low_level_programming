@@ -3,31 +3,22 @@
 
 /**
  * main - prime fatocrization
- * Return: always 
+ * Return: always
  */
- 
-int main()
+
+int main(void)
 {
 long n = 612852475143;
 long i;
+long largest;
 
-while (n % 2 == 0)
+for (i = 1; i <= sqrt(n); i++)
 {
-printf("%d ", 2);
-n = n / 2;
-}
-for (i = 3; i <= sqrt(n); i = i + 2)
+if (n % i == 0)
 {
-while(n % i == 0)
-{
-printf("%ld ", i);
-n = n / i;
+largest = n / i;
 }
 }
-if (n > 2)
-{
-printf("%ld", n);
-}
-putchar('\n');
+printf("%ld\n", largest);
 return (0);
 }
