@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _isdigit - checks for digit
+ * _isdigit - checks for digit
  * @c: input
  * Return: always
  */
