@@ -1,19 +1,22 @@
 #include "main.h"
 
 /**
- * puts2 - prints even characters
+ * puts2 - prints 2/3
  * @str: input
- * Return: always
  */
 
 void puts2(char *str)
 {
-	int i = 0;
+int i = 0;
+int j;
 
-	while (*(str + i) != '\0')
-	{
-		_putchar(*(str + i));
-		i = i + 2;
-	}
-	_putchar('\n');
+while (str[i] != '\0')
+{
+i++;
+}
+for (j = 0; j < i; j += 2)
+{
+_putchar(str[j]);
+}
+_putchar('\n');
 }
