@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * strcat - concatnate
+ * _strcat - concatnate
  * @dest: input 1
  * @src: input 2
  * Return: always
