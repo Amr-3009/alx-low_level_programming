@@ -21,7 +21,7 @@ str[i - 1] == ')' ||
 str[i - 1] == '{' || str[i - 1] == '}')) && (str[i] >= 'a' && str[i] <= 'z'))
 {
 str[i] = str[i] - 'a' + 'A';
-
+}
 }
 return (str);
 }
